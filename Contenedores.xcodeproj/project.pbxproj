@@ -13,6 +13,10 @@
 		82CBBBEF25FAA004000AD641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBBED25FAA004000AD641 /* Main.storyboard */; };
 		82CBBBF125FAA005000AD641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBBF025FAA005000AD641 /* Assets.xcassets */; };
 		82CBBBF425FAA005000AD641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBBF225FAA005000AD641 /* LaunchScreen.storyboard */; };
+		82CBBBFD25FAA3BC000AD641 /* Vista1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CBBBFC25FAA3BC000AD641 /* Vista1ViewController.swift */; };
+		82CBBC0025FAA3C6000AD641 /* Vista2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CBBBFF25FAA3C6000AD641 /* Vista2ViewController.swift */; };
+		82CBBC0625FAA3DD000AD641 /* Vista2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBC0525FAA3DD000AD641 /* Vista2ViewController.storyboard */; };
+		82CBBC0A25FAA62E000AD641 /* Vista1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBC0825FAA62E000AD641 /* Vista1ViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		82CBBBF025FAA005000AD641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CBBBF325FAA005000AD641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82CBBBF525FAA005000AD641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CBBBFC25FAA3BC000AD641 /* Vista1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vista1ViewController.swift; sourceTree = "<group>"; };
+		82CBBBFF25FAA3C6000AD641 /* Vista2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vista2ViewController.swift; sourceTree = "<group>"; };
+		82CBBC0525FAA3DD000AD641 /* Vista2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vista2ViewController.storyboard; sourceTree = "<group>"; };
+		82CBBC0925FAA62E000AD641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Contenedores/Base.lproj/Vista1ViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,20 @@
 				82CBBBF025FAA005000AD641 /* Assets.xcassets */,
 				82CBBBF225FAA005000AD641 /* LaunchScreen.storyboard */,
 				82CBBBF525FAA005000AD641 /* Info.plist */,
+				82CBBC0F25FAAE73000AD641 /* VistasContenedor */,
 			);
 			path = Contenedores;
+			sourceTree = "<group>";
+		};
+		82CBBC0F25FAAE73000AD641 /* VistasContenedor */ = {
+			isa = PBXGroup;
+			children = (
+				82CBBBFC25FAA3BC000AD641 /* Vista1ViewController.swift */,
+				82CBBC0825FAA62E000AD641 /* Vista1ViewController.storyboard */,
+				82CBBBFF25FAA3C6000AD641 /* Vista2ViewController.swift */,
+				82CBBC0525FAA3DD000AD641 /* Vista2ViewController.storyboard */,
+			);
+			path = VistasContenedor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82CBBC0625FAA3DD000AD641 /* Vista2ViewController.storyboard in Resources */,
+				82CBBC0A25FAA62E000AD641 /* Vista1ViewController.storyboard in Resources */,
 				82CBBBF425FAA005000AD641 /* LaunchScreen.storyboard in Resources */,
 				82CBBBF125FAA005000AD641 /* Assets.xcassets in Resources */,
 				82CBBBEF25FAA004000AD641 /* Main.storyboard in Resources */,
@@ -137,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82CBBC0025FAA3C6000AD641 /* Vista2ViewController.swift in Sources */,
+				82CBBBFD25FAA3BC000AD641 /* Vista1ViewController.swift in Sources */,
 				82CBBBEC25FAA004000AD641 /* ViewController.swift in Sources */,
 				82CBBBE825FAA004000AD641 /* AppDelegate.swift in Sources */,
 				82CBBBEA25FAA004000AD641 /* SceneDelegate.swift in Sources */,
@@ -160,6 +184,14 @@
 				82CBBBF325FAA005000AD641 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		82CBBC0825FAA62E000AD641 /* Vista1ViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CBBC0925FAA62E000AD641 /* Base */,
+			);
+			name = Vista1ViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
